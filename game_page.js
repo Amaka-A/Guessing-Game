@@ -31,7 +31,7 @@ function send() {
 
     remove_charAt1 = word.replace(charAt1, "_");
     remove_charAt2 = remove_charAt1.replace(charAt2, "_");
-    remove_charAt3 = remove_charAt2.replace(charAt2, "_");
+    remove_charAt3 = remove_charAt2.replace(charAt3, "_");
     console.log(remove_charAt3);
 
     question_word = "<h4 id='word_display'> Q. " + remove_charAt3 + "</h4>";
